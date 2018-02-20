@@ -5,86 +5,81 @@
 body {
   background-color: #dadada;
   font-size: 10px;
+  margin:8px;
   display: block;
-  margin: 8px;
 }
 
 .container {
-  position: relative;
-  margin: 20px auto;
-  width: 90%;
-  float: center;
-}
-
-.container h1 {
   text-transform: uppercase;
   font-family: systems-ui, sans-serif;
-  font-size: 16px;
-  text-align:center;
-}
-
-.top-left {
-  background-color: transparent;
-  top: 20px;
-  left: 20px;
-  font-size: 18px;
-}
-
-.top-left-2 {
-  background-color: transparent;
-  top: 20px;
-  left: 20px;
-  font-size: 18px;
-}
-
-.preview h1{
-  text-transform: capitalize;
-}
-
-.previewbaku {
-  img: url(../images/baku.jpg);
-  width: 90%;
-}
-
-.previewlondon {
-  img: url(../images/london.png);
-  width: 90%;
-}
-
-.previewmadrid {
-  img: url(../images/madrid.jpg);
-  width: 90%;
-}
-
-.previewrome {
-  img: url(../images/rome.jpg);
-  width: 90%;
-}
-
-.top-left {
-  position: absolute;
-  top: 10px;
-  left: 20px;
-}
-
-div {
-  background-color: #dadada;
-  float: left;
-  margin: 1% 0;
+  font-size: 12px;
   width: 100%;
-  padding: 20px 25px;
+  text-align: center;
+}
+
+.preview h1 {
+  text-transform: none;
+  font-family: times-new-roman;
+  font-size: 18px;
+  width: 200px;
+  height: 200px;
+  text-align: left;
+}
+
+.baku {
+  background-image: url(baku.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 850px;
+}
+
+.london {
+  background-image: url(london.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 850px;
+}
+
+.madrid {
+  background-image: url(madrid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 850px;
+}
+
+.rome {
+  background-image: url(rome.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 850px;
 }
 
 @media screen and (min-width: 575px) {
-  div {
+  .container, .baku, .london, .madrid, .rome {
     margin: 1%;
     width: 48%;
   }
 }
 
 @media screen and (min-width: 991px) {
-  div {
+  .container, .baku, .london, .madrid, .rome {
     margin: 1%;
-    width: 16%;
+    width: 33.3%;
   }
 }
