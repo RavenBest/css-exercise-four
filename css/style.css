@@ -13,14 +13,14 @@ body {
   font-family: systems-ui, sans-serif;
   font-size: 10px;
   text-align: center;
-  float: center;
 }
 
 .preview {
   text-transform: none;
   font-family: times-new-roman;
   font-size: 14px;
-  margin: auto;
+  margin: 8px;
+  display: inline-block;
 }
 
 .baku {
@@ -57,19 +57,17 @@ body {
 
 @media screen and (min-width: 575px) {
   .container {
-    margin: 1% 25% 0;
+    margin: 1% 15% 0;
     width: 48%;
-    column-count: 2;
-    display: inline-block;
+    display: block;
   }
 }
 
 
 @media screen and (min-width: 991px) {
   .container {
-    margin: 1% 15% 0;
+    margin: 1% 20% 0;
     width: 60%;
-    column-count: 4;
-    display: inline-block;
+    display: block;
   }
 }
