@@ -5,9 +5,7 @@
 body {
   background-color: #dadada;
   margin: 8px;
-  width: 100%;
   float: center;
-  display: inline-block;
 }
 
 .container {
@@ -59,17 +57,19 @@ body {
 
 @media screen and (min-width: 575px) {
   .container {
-    margin: 1%;
+    margin: 1% 25% 0;
     width: 48%;
     column-count: 2;
+    display: inline-block;
   }
 }
 
 
 @media screen and (min-width: 991px) {
   .container {
-    margin: 1%;
+    margin: 1% 15% 0;
     width: 60%;
     column-count: 4;
+    display: inline-block;
   }
 }
