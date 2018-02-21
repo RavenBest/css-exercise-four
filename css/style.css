@@ -4,10 +4,10 @@
 
 body {
   background-color: #dadada;
-  font-size: 10px;
-  margin:8px;
-  display: block;
-  column-count: 4;
+  margin: 8px;
+  width: 100%;
+  float: center;
+  display: inline-block;
 }
 
 .container {
@@ -15,13 +15,14 @@ body {
   font-family: systems-ui, sans-serif;
   font-size: 10px;
   text-align: center;
+  float: center;
 }
 
 .preview {
   text-transform: none;
   font-family: times-new-roman;
   font-size: 14px;
-  text-align: left;
+  margin: auto;
 }
 
 .baku {
@@ -57,15 +58,18 @@ body {
 }
 
 @media screen and (min-width: 575px) {
-  .body {
+  .container {
     margin: 1%;
     width: 48%;
+    column-count: 2;
   }
 }
 
+
 @media screen and (min-width: 991px) {
-  .body {
+  .container {
     margin: 1%;
     width: 60%;
+    column-count: 4;
   }
 }
