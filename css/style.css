@@ -15,6 +15,14 @@ body {
   text-align: center;
 }
 
+.container h1 {
+  padding: 1%;
+}
+
+.preview h1 {
+  padding-right: 50%;
+}
+
 .preview {
   text-transform: none;
   font-family: times-new-roman;
@@ -27,47 +35,60 @@ body {
   background-image: url(../images/baku.jpg);
   background-size: cover;
   background-color: #ffffff;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 250px;
 }
 
 .london {
   background-image: url(../images/london.png);
   background-size: cover;
   background-color: #ffffff;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 250px;
 }
 
 .madrid {
   background-image: url(../images/madrid.jpg);
   background-size: cover;
   background-color: #ffffff;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 250px;
 }
 
 .rome {
   background-image: url(../images/rome.jpg);
   background-size: cover;
   background-color: #ffffff;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 250px;
 }
 
 @media screen and (min-width: 575px) {
   .container {
-    margin: 1% 15% 0;
-    width: 48%;
+    margin: 1% 8%;
+    width: 80%;
     display: block;
   }
 }
 
-
 @media screen and (min-width: 991px) {
   .container {
-    margin: 1% 20% 0;
-    width: 60%;
+    margin: 1% 8%;
+    width: 80%;
     display: block;
+  }
+}
+
+@media screen and (mid-width: 575px) {
+  .preview {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (mid-width: 991px) {
+  .preview {
+    margin: 1%;
+    width: 60%;
   }
 }
